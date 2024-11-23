@@ -1,0 +1,11 @@
+:root {
+  --background: #1f2020;
+  --foreground: #fff;
+  --accentOrange: #fe942d;
+  --accentRed: #f53a4c;
+  --accentTeal: #24f1ef;
+  --accentNavy: #122c62;
+  --fontOswald: "Oswald";
+  --fontAlata: "Alata";
+  --fontPoppins: "Poppins";
+}
