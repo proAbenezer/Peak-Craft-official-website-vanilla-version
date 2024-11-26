@@ -26,6 +26,7 @@
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --spacing-xl: 4rem;
+  --sapcing--xxl: 8rem;
 
   --z-index-1: 1;
   --z-index-2: 10;
@@ -302,4 +303,67 @@ body {
 .events--gradient {
   background-color: var(--accentRed);
   box-shadow: 0 0 8px 0 var(--accentRed);
+}
+
+/* ---------- Cards ---------- */
+.cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: var(--fontAlata);
+}
+.cards__left {
+  text-align: center;
+  margin-bottom: var(--sapcing--xxl);
+}
+.cards__right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--sapcing--xxl);
+}
+
+.card {
+  position: relative;
+  width: 330px;
+  height: 75vh;
+  text-align: center;
+  background-color: var(--background);
+  border: 1px solid var(--accentTeal);
+  box-shadow: 0 0 0 5px var(--accentNavy);
+  padding-inline: 10px;
+}
+
+.cards--gradient {
+  background-color: var(--accentNavy);
+  box-shadow: 0 0 8px 0 var(--accentNavy);
+}
+
+.card__left--image {
+  margin-top: -70px;
+}
+
+.card__left--title {
+  margin-top: var(--spacing-lg);
+}
+.card__left--description {
+  margin-block: var(--spacing-md);
+}
+.card__left--title {
+  font-size: 1.6rem;
+}
+
+.card__left--description {
+  font-size: 0.8rem;
+}
+.card__left--link {
+  position: absolute;
+  bottom: 2%;
+  right: 3%;
+  font-weight: 800;
+}
+
+.card__left--link:hover,
+.card__left--link:focus {
+  color: var(--accentNavy);
 }
