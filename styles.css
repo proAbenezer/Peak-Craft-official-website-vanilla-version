@@ -221,12 +221,21 @@ body {
 .row__banner {
   text-align: center;
 }
+.crown__banner {
+  position: relative;
+}
+.crown__banner--gif {
+  width: 400px;
+  position: absolute;
+  top: 1%;
+  left: -9%;
+}
 .crown__banner--title,
 .row__banner--title {
   width: 70%;
 }
 .crown__text--subtitle,
-.row__banner--subtitle {
+.row__text--subtitle {
   margin-block: var(--spacing-lg);
 }
 .crown__text,
@@ -241,8 +250,8 @@ body {
 .crown__text--button,
 .row__text--button {
   color: var(--text-color);
-  padding: 0.8rem 1rem;
-  min-width: 200px;
+  padding: 0.5rem 1rem;
+  min-width: 220px;
   border-radius: 40px;
   border: 0;
   background-color: var(--accentOrange);
@@ -278,11 +287,19 @@ body {
   box-shadow: 0 0 8px 0 var(--accentOrange);
 }
 
-/* ---------- explore ---------- */
+/* ---------- Explore ---------- */
 .explore__text--button {
   background-color: var(--accentTeal);
 }
 .explore--gradient {
   background-color: var(--accentTeal);
   box-shadow: 0 0 8px 0 var(--accentTeal);
+}
+/* ---------- Events ---------- */
+.events__text--button {
+  background-color: var(--accentRed);
+}
+.events--gradient {
+  background-color: var(--accentRed);
+  box-shadow: 0 0 8px 0 var(--accentRed);
 }
