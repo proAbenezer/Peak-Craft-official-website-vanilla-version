@@ -9,6 +9,7 @@
   --accentRed: #f53a4c;
   --accentTeal: #24f1ef;
   --accentNavy: #122c62;
+  --tw-bg-opacity: 1;
 
   --text-color: #eee;
   --fontOswald: "Oswald", sans-serif;
@@ -363,4 +364,91 @@ body {
 .card__left--link:hover,
 .card__left--link:focus {
   color: var(--accentNavy);
+}
+
+/* ---------- Join ---------- */
+
+.join__text--button {
+  background-color: rgb(129 130 130 / var(--tw-bg-opacity));
+}
+
+/* ---------- Footer ---------- */
+
+.footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  font-family: var(--fontAlata);
+  text-align: center;
+  background-image: url("./images/Footerbg-small.png");
+  background-position: center;
+  background-size: cover;
+}
+.footer__left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.footer__contact--title {
+  font-size: var(--font-size-lg);
+}
+.footer__contact--subtitle {
+  font-size: var(--font-size-md);
+  font-weight: 400;
+  margin-block: var(--spacing-xs);
+}
+.footer__left--contact {
+  position: relative;
+}
+.footer__contact--textarea {
+  width: 250px;
+  height: 200px;
+  resize: none;
+  color: var(--text-color);
+  background-color: transparent;
+  font-family: inherit;
+  border: 3px solid var(--text-color);
+  padding: 5px 0 0px 10px;
+  font-weight: bold;
+}
+.footer__form--submit {
+  position: absolute;
+  bottom: 6%;
+  right: 13%;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--text-color);
+}
+
+.footer__socials--links {
+  margin-block: var(--spacing-md);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer__socials--title {
+  font-weight: bold;
+}
+
+.footer__logo {
+  width: 100px;
+}
+
+.footer__text--logo {
+  margin-bottom: var(--spacing-md);
+}
+
+.footer__text--list li {
+  font-weight: 400;
+  font-size: var(--font-size-md);
+}
+
+.footer__right--description {
+  color: grey;
+  font-weight: 400;
 }
