@@ -375,6 +375,7 @@ body {
 /* ---------- Footer ---------- */
 
 .footer {
+  padding-block: var(--spacing-xl);
   display: flex;
   align-items: center;
   flex-direction: column;
