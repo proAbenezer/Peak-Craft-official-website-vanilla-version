@@ -326,7 +326,7 @@ body {
 .card {
   position: relative;
   width: 330px;
-  height: 75vh;
+  height: 70vh;
   text-align: center;
   background-color: var(--background);
   border: 1px solid var(--accentTeal);
@@ -342,15 +342,12 @@ body {
 .card__left--image {
   margin-top: -70px;
 }
-
-.card__left--title {
+.card__subtitle {
   margin-top: var(--spacing-lg);
-}
-.card__left--description {
-  margin-block: var(--spacing-md);
 }
 .card__left--title {
   font-size: 1.6rem;
+  margin-block: var(--spacing-md);
 }
 
 .card__left--description {
